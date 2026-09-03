@@ -1,0 +1,176 @@
+{
+  "cesp_version": "1.0",
+  "name": "odst-superintendent",
+  "display_name": "ODST Superintendent",
+  "version": "1.0.0",
+  "description": "Superintendent-style traffic and civic announcements for your coding session.",
+  "author": {
+    "name": "nenntendo64",
+    "github": "nenntendo64"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ODST_Virgil_in.mp3",
+          "label": "Virgil in",
+          "sha256": "04e53ce8ee34dc56046fc02633d199ccddcf357af4e95907b59472d28dfa52a1"
+        },
+        {
+          "file": "sounds/ODST_Welcome_access_granted.mp3",
+          "label": "Welcome. Access granted.",
+          "sha256": "bed2f3e1d9bcb504870395e24577363fc4ae6559b862a6a558d38ab01712500a"
+        },
+        {
+          "file": "sounds/ODST_Caution_traveler.mp3",
+          "label": "Caution, traveler",
+          "sha256": "2055cf42c97a4fef0020e17ffa9b933c0919a9571e7c683d5d708724cfc909c3"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ODST_Proceed_with_caution.mp3",
+          "label": "Proceed with caution",
+          "sha256": "4b6bdfcfda11521855e5e3310fb58a8d599ea0d401679585e6f6b2a91d142de9"
+        },
+        {
+          "file": "sounds/ODST_Proceed_with_caution_alt.mp3",
+          "label": "Proceed with caution (alt take)",
+          "sha256": "ff7c7c2c51a4fab4d22c86b2a9d09ce8d889032778d816b3cf5b2dac29c2309e"
+        },
+        {
+          "file": "sounds/ODST_Please_walk.mp3",
+          "label": "Please walk",
+          "sha256": "2fd9cf1d690d6703925014302fbcf12e331304cc8edc294e5db9369297bc960d"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ODST_Bridge_toll_accepted.mp3",
+          "label": "Bridge toll accepted",
+          "sha256": "645f318a6b7cd81fc67bded52fec4e7f796c4541d07d2ee3b8c8ae115df5d5a1"
+        },
+        {
+          "file": "sounds/ODST_Please_collect_your_tickets.mp3",
+          "label": "Please collect your tickets",
+          "sha256": "ec33c3a97b81b04749634ffcc262a3761afe162550f0e52c34f5b9644dde59d0"
+        },
+        {
+          "file": "sounds/ODST_Keep_it_clean.mp3",
+          "label": "Keep it clean",
+          "sha256": "6b6da4800c89ea33cf2c54c4c6ff3e09ee67777d143605570d7bd26791b08ce0"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ODST_Access_denied.mp3",
+          "label": "Access denied",
+          "sha256": "6bd9e657ca3b281aec6f823a20dff06590d2874ead49387e784868e992b42167"
+        },
+        {
+          "file": "sounds/ODST_Wrong_way.mp3",
+          "label": "Wrong way",
+          "sha256": "ad080c9be3cb0c60c24af9610292ca9e031172337e7b5a4a693cdb12b3699611"
+        },
+        {
+          "file": "sounds/ODST_Road_closed.mp3",
+          "label": "Road closed",
+          "sha256": "6072c26fbbf7c6737509cacab431ec1f2070e1f82252fc2a027aa7275e8aa99e"
+        },
+        {
+          "file": "sounds/ODST_Crime_scene_proceed_with_caution.mp3",
+          "label": "Crime scene, proceed with caution",
+          "sha256": "705671ef6f041425679b3a14dd4a10d7443d9808e894b3dac85a72bdc3f5e39e"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/ODST_Change_required.mp3",
+          "label": "Change required",
+          "sha256": "80d3f4db9ea40300eef8b7c3c40f95af75ede436223d70a0f3414df0c4a5abcc"
+        },
+        {
+          "file": "sounds/ODST_Yellow_means_yield.mp3",
+          "label": "Yellow means yield",
+          "sha256": "bd0d71edc4c08a7a67e17652b438cd95d1c748ad17708b71079f27cec053a89a"
+        },
+        {
+          "file": "sounds/ODST_Authorized_personnel_only.mp3",
+          "label": "Authorized personnel only",
+          "sha256": "c4709723ff8cb96a87bb8ac5294685ae4112d3636ec7ac8ea76fbaee603f1bf5"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ODST_Final_notice_bill_past_due.mp3",
+          "label": "Final notice: bill past due",
+          "sha256": "18036c3cee272b18c2efc6b6f93c07c5acae86eefccc34de2d4354b2c909b17a"
+        },
+        {
+          "file": "sounds/ODST_Change_required.mp3",
+          "label": "Change required",
+          "sha256": "80d3f4db9ea40300eef8b7c3c40f95af75ede436223d70a0f3414df0c4a5abcc"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/ODST_Crime_doesnt_pay.mp3",
+          "label": "Crime doesn't pay",
+          "sha256": "66c38afe8324fe242dd8f5464f38fd5f0f377c9225a80836c718ebca2651f041"
+        },
+        {
+          "file": "sounds/ODST_Caution_Crime_doesnt_pay.mp3",
+          "label": "Caution: crime doesn't pay",
+          "sha256": "9da271b0f29113a857b5884f9cad2158944630e8f5dba8ac3e0bdcd5f0e49651"
+        },
+        {
+          "file": "sounds/ODST_Warning_convicts_may_be_hitchhikers.mp3",
+          "label": "Warning: convicts may be hitchhikers",
+          "sha256": "0a3490d6c86f9206a2781ee4d682c497c04d6a78c08776cddbca6c8d86f1bf88"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/ODST_Virgil_out.mp3",
+          "label": "Virgil out",
+          "sha256": "33fccbd7db41baeb5ec6997e7fae976dfc1d224138eb22de564cec7c5a06409a"
+        },
+        {
+          "file": "sounds/ODST_Have_a_pleasant_trip.mp3",
+          "label": "Have a pleasant trip",
+          "sha256": "bec6209362cec046f80732cae77adf6e3cf1b46e02e436fb68ba5f878c759dfe"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/ODST_Construction_ahead.mp3",
+          "label": "Construction ahead",
+          "sha256": "2d8f7b0cb4f43098bbfac42201f3a90e3e6c5f9f56a853b41d6dfc42c18c6c23"
+        },
+        {
+          "file": "sounds/ODST_Pardon_our_dust.mp3",
+          "label": "Pardon our dust",
+          "sha256": "e79c3f2487c18e850ca101a01c1438c2017df3b2c9bba90fdf74f5b168d21bd0"
+        }
+      ]
+    }
+  }
+}
